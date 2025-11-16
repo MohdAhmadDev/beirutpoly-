@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beirut Poly — A Monopoly of Beirut</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      :root{--accent:#c62828}
+      .hero{background:linear-gradient(180deg,rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url('https://images.unsplash.com/photo-1549317664-2b3d0b5a7e5c?auto=format&fit=crop&w=1600&q=80') center/cover; color:#fff}
+      .property-card img{height:140px;object-fit:cover}
+      .badge-location{background:rgba(255,255,255,0.12);backdrop-filter:blur(4px)}
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-house-fill me-2" viewBox="0 0 16 16">
+            <path d="M8 3.293l6 6V15a1 1 0 0 1-1 1h-3v-4H6v4H3a1 1 0 0 1-1-1V9.293l6-6z"/>
+            <path d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646A.5.5 0 0 1 15 9h-1v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9H1a.5.5 0 0 1-.354-.854L7.293 1.5z"/>
+          </svg>
+          Beirut Poly
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#properties">Properties</a></li>
+            <li class="nav-item"><a class="nav-link" href="#howto">How to Play</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero py-7">
+      <div class="container py-5 text-center">
+        <h1 class="display-5 fw-bold">Beirut Poly</h1>
+        <p class="lead mb-4">A local, colorful adaptation of Monopoly — buy, trade and build across Beirut’s iconic neighborhoods.</p>
+        <div class="d-flex justify-content-center gap-2">
+          <a href="#howto" class="btn btn-light btn-lg">How to Play</a>
+          <a href="#properties" class="btn btn-outline-light btn-lg">Explore Properties</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="py-5">
+      <div class="container">
+
+        <section id="about" class="mb-5">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <h2>What is Beirut Poly?</h2>
+              <p class="mb-3">Beirut Poly blends the nostalgia and strategy of the classic board game with Beirut’s neighborhoods, landmarks and everyday stories. Players buy, sell and develop properties inspired by Hamra, Gemmayzeh, Downtown, Verdun and more.</p>
+              <ul>
+                <li>Localized properties and prices</li>
+                <li>Chance & Community Chest cards reflecting Lebanese life</li>
+                <li>Utilities are reimagined as local services like Électricité du Liban</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 text-center mt-4 mt-lg-0">
+              <img src="https://images.unsplash.com/photo-1526481280698-8bdb88f3a7f7?auto=format&fit=crop&w=800&q=60" alt="Beirut skyline" class="img-fluid rounded shadow-sm">
+            </div>
+          </div>
+        </section>
+
+        <section id="properties" class="mb-5">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h3 class="mb-0">Featured Properties</h3>
+            <small class="text-muted">Trade, build hotels, and collect rent</small>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card property-card h-100">
+                <img src="https://images.unsplash.com/photo-1543965179-1b3d4f3d1f35?auto=format&fit=crop&w=1200&q=60" class="card-img-top" alt="Hamra Street">
+                <div class="card-body">
+                  <h5 class="card-title">Hamra Street</h5>
+                  <p class="card-text">A lively cultural strip — high foot traffic makes rent strong but competition fierce.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="badge rounded-pill badge-location text-light">Price: 300 LBP</span>
+                    <a href="#" class="btn btn-sm btn-outline-primary">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card property-card h-100">
+                <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=1200&q=60" class="card-img-top" alt="Gemmayzeh">
+                <div class="card-body">
+                  <h5 class="card-title">Gemmayzeh</h5>
+                  <p class="card-text">Trendy nightlife and boutiques — excellent for tourism-driven rent boosts.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="badge rounded-pill badge-location text-light">Price: 450 LBP</span>
+                    <a href="#" class="btn btn-sm btn-outline-primary">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card property-card h-100">
+                <img src="https://images.unsplash.com/photo-1505765054462-48c6b7a6f6d9?auto=format&fit=crop&w=1200&q=60" class="card-img-top" alt="Raouche Rock">
+                <div class="card-body">
+                  <h5 class="card-title">Raouche & Corniche</h5>
+                  <p class="card-text">Iconic coastal spot — tourist magnet with medium price but high prestige.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="badge rounded-pill badge-location text-light">Price: 380 LBP</span>
+                    <a href="#" class="btn btn-sm btn-outline-primary">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section id="howto" class="mb-5">
+          <div class="row">
+            <div class="col-lg-8">
+              <h3>How to Play</h3>
+              <ol>
+                <li>Each player starts with a set amount of cash in Lebanese Pounds (LBP).</li>
+                <li>Roll dice, move around the board, buy properties when you land on them.</li>
+                <li>Collect rent when others land on your properties. Build houses and hotels to increase rent.</li>
+                <li>Chance & Community cards reflect local events (traffic, rallies, festivals) that affect players.</li>
+                <li>Last player not bankrupt wins.</li>
+              </ol>
+            </div>
+            <div class="col-lg-4">
+              <div class="card bg-light">
+                <div class="card-body">
+                  <h5 class="card-title">Quick Tips</h5>
+                  <ul class="mb-0">
+                    <li>Buy cheap properties early and create monopolies.</li>
+                    <li>Keep a cash reserve for fines and unexpected events.</li>
+                    <li>Trade cleverly—negotiate with other players to complete sets.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="cta" class="text-center py-4 bg-white border rounded-3">
+          <h4 class="mb-3">Want to prototype the board or host a playtest?</h4>
+          <a href="#contact" class="btn btn-primary btn-lg">Get in touch</a>
+        </section>
+
+      </div>
+    </main>
+
+    <footer id="contact" class="bg-dark text-light py-4 mt-5">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div>
+          <strong>Beirut Poly</strong><br>
+          Designed with ❤️ for Beirut.
+        </div>
+        <div class="text-md-end mt-3 mt-md-0">
+          <small>Follow us on <a href="#" class="text-decoration-underline text-light">Twitter</a> · <a href="#" class="text-decoration-underline text-light">Instagram</a></small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
