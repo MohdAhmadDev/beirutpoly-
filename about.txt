@@ -1,1 +1,7 @@
-this is a documantation about beyrout poly 
+# Beirut Poly
+
+**Beirut Poly** is a Monopoly-inspired board game that brings the vibrant streets, culture, and landmarks of **Beirut** to life. Players buy, trade, and develop iconic neighborhoods and attractions from Lebanon’s capital, from the historic **Downtown Beirut** to the bustling **Hamra Street**, all while navigating the unique twists of city life.
+
+Instead of traditional Monopoly tokens, players can move around the board with **symbols of Beirut**, such as a **cable car**, **ferris wheel**, **coffee cup**, or **cedar tree**. Chance and Community Chest cards are replaced with local-themed surprises, reflecting Beirut’s rich history, festivals, and occasional challenges like power outages or traffic jams.
+
+The game combines strategic property management with a fun, cultural exploration, making it a must-play for both locals and visitors who want to experience the spirit of Beirut in a playful, competitive way.
